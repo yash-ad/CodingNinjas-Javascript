@@ -28,3 +28,9 @@
 
 
  //Terniary operator
+
+ // condition ? true : false
+
+ const coffeePrice = 90;
+
+ coffeePrice >= 80 ? console.log("More than 80Rs") : console.log("Less than 80Rs");
