@@ -9,6 +9,9 @@ for(let i=0; i<5; ++i) {
     console.log("Hello Js") ; 
  }
 
+
+
+
  //3.What will be the output of the following code:
  let a = 2;
  let b = 0;
@@ -26,6 +29,12 @@ for(let i=0; i<5; ++i) {
 
 
 
+
+
+
+
+
+
 //4.Which of the following 'for' loops would not produce any error?
 
 
@@ -39,7 +48,5 @@ for(let i=0; i<5; ++i) {
     console.log("Hello"); 
  }
  
-
-
  //option A and B will not produce any error;
 
