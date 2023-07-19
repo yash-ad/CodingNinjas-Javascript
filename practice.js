@@ -51,9 +51,46 @@ else {
 //In Switch statement syntax, the expression is compared with the case labels using the following operator -
 // == OR === ?
 //switch(expression)
-{
-    statements
-}
+// {
+//     statements
+// }
 
 //Note that the strict equality (===) operator is used in switch statements to ensure both the value and type of the expression are compared with the case labels. If loose equality (==) were used, type coercion could occur, leading to unexpected results.
 //Javascript would always prefer use strict equality operator.
+
+
+
+//8.
+//Sum of Even Numbers till N -JS
+
+//Given a number N, print sum of all even numbers from 1 to N.
+
+function sumofEvenNumbers(N){
+    let sum = 0;
+    for(let i = 1 ; i <= N ; i++){
+
+        if(i % 2 === 0){
+
+            sum += i;
+        }
+    }
+    return sum;
+ }
+
+ 
+const N = 6;
+const result = sumofEvenNumbers(N);
+console.log(result);  //12
+
+
+//Code Explanation:-
+
+//So in this code  we declare a function sumOfEvenNumbers that takes an integer N as input.
+//we intialize a variable sum to store the sum of even numbers, the use a for loop to iterate from 1 to N.
+// For each number i, we check if it's even (i.e., i % 2 === 0) and add it to the sum. Finally, the function returns the computed sum.
+
+
+
+
+
+
