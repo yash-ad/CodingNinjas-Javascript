@@ -65,31 +65,87 @@ else {
 
 //Given a number N, print sum of all even numbers from 1 to N.
 
-function sumofEvenNumbers(N){
+function sum(num){
     let sum = 0;
-    for(let i = 1 ; i <= N ; i++){
+  while(i <= num){
 
         if(i % 2 === 0){
 
             sum += i;
         }
+        i++; //Postfix the value is returned first and then  the value is incremented
     }
     return sum;
  }
 
  
-const N = 6;
-const result = sumofEvenNumbers(N);
-console.log(result);  //12
+
+ function sum(num){
+    let sum = 0;
+  while(i <= num){
+
+        if(i % 2 === 0){
+
+            sum += i;
+        }
+        i++; //Postfix the value is returned first and then  the value is incremented
+    }
+    return sum;
+ }
 
 
-//Code Explanation:-
+function main() {
 
-//So in this code  we declare a function sumOfEvenNumbers that takes an integer N as input.
-//we intialize a variable sum to store the sum of even numbers, the use a for loop to iterate from 1 to N.
-// For each number i, we check if it's even (i.e., i % 2 === 0) and add it to the sum. Finally, the function returns the computed sum.
+    /* Read your input here 
+    eg: For string variables:   let str = String(readLine()); 
+        For int variables: let var_name = parseInt(readLine());
+        For arrays : const arr = readLine().replace(/\s+$/g, '').split(' ');
+    */
+ 
+    let num = parseInt(readline());
+
+    /*
+    Call your function with the input/parameters read above
+    eg: let x = example(var_name, arr);
+    */
+
+    let ans = num(sum);
+   /*
+   Log your output here 
+   eg: console.log(x);
+   */
+    console.log(ans);
+
+}
 
 
+
+//9.Equality comparison:-
+//Guess the output:-
+
+const a = [2];
+
+const b = [2];
+//Checks with the strict equality operator:-
+if(a === b)
+{
+
+    console.log("The arrays have the same elements");
+}
+else
+{
+
+    console.log("The arrays have differnet elements");
+}
+
+//The answer is False  "The arrays have differnet elements"
+
+//Sounds Strange right ! ,Javascript give unexpected results lets clarify how this given output is False
+
+//So in javascript , Strict equality operator (===) it compares the equality of two variables not only based on their values but also based in their data types.
+//since in this code the two seperate arrays with the same content,but they are distict objects in memory,
+//As a result the `===` operator evaluates False, Because it checks if both variables reference the same object,not of they have the same elements.
+//Since Arrays are the Objects.
 
 
 
