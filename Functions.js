@@ -84,7 +84,7 @@ console.log(diviResult);
 
 
 
-
+//7.
 //In function the variable and Arguments:-
 //1.Guess output when we passed the single value as an argument:-
 //So what happens in javascript:-
@@ -120,5 +120,27 @@ console.log(whatIsResult); //  x-y=10  that means the javascript assume as x=30 
 //console.log(whatIsResult);  // x-y-z=30-20-10=0 that means the jevascript assume as  x=30,y=20 and z=10 so the result will be 0.
 
 
+//8.
+// What will the function 'test' return upon execution of these statements?
 
+//More arguments passed.
+function test(a, b) {
+    console.log( a + b );
+}
+let output = test( 2 , 3 , 4);
+console.log(output);//5
+
+
+
+
+//9.Fewer arguments passed:-
+//What will the function test return upon execution of these statements?
+
+function livetest(a, b, c) {
+     console.log(a,b,c); //2,3,Undefined
+     return a + b * c;   //a+b=5, 5*undefined=NotaNumber;
+
+}
+let printOutput = livetest(2,3);
+console.log(printOutput); //NaN
 
