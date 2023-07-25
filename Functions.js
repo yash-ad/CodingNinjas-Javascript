@@ -204,3 +204,36 @@ var x;
 x = 5;
 console.log(x);  //It will give an error cannot access X before intialization.
 let x;
+
+
+
+//6.
+// What is the output of following code?
+hoisted();
+
+function hoisted() {
+    console.log('Hoisted');
+}
+
+//The answer will be hoisted BECAUSE....
+//the hoisted() function is defined with console.log('Hoisted');
+//and when it is called, it executes the console.log statement, printing "Hoisted" to the console.
+
+
+//7.
+function demo() {
+    console.log(x);//Due to the compilation phase the value of x is not defined yet and its not execution
+     //Then now is interepretation(execution) phase ,x is exist in a memory it is declared bot not assigned a value so which is by default UNDEFINED.
+     
+     var x = 10; //Now in a memory variable declaration in compilation process so since the value of x is an undefined by default before an execution part.
+                 //Now an execution part that is (Interpretation) the x is assigned value to 10  
+    
+    console.log(x); //This exmaple will show us a value with x = 10;
+    // This is not a variable or function declaration in the compile phase.
+    //now in the interpretation(Execution) phase the value of x is 10.
+           
+    }
+
+
+demo(); //Undefined Because Hence eventhough we have not printed yet console.log after assigned the value of 10 to var x , so when we call the function javascript know that the value will be still undefined.
+demo(); //Now at this when we call a fucntion this give us an output console.log(10); 
