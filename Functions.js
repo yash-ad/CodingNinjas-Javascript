@@ -242,12 +242,12 @@
 //8.
 // Multiplication
 // What will the following code print on console?
-function solveMultiply(a, b) {
-    return a*b;
-};
-console.log(solveMultiply); //Function-Body
-// let resulter = solveMultiply(4,5)
-// console.log(resulter);
+// function solveMultiply(a, b) {
+//     return a*b;
+// };
+// console.log(solveMultiply); //Function-Body
+// // let resulter = solveMultiply(4,5)
+// // console.log(resulter);
 
 
 //Code explanation:-
@@ -256,6 +256,88 @@ console.log(solveMultiply); //Function-Body
 // If we simply console.log(function-name) then it will display the content that is stored at the address stored by variable. 
 // In this case we are using console.log(solveMultiply) so this will print function body that is stored at the address contained by variable "solveMultiply". 
 // If we use console.log(solveMultiply(4,5)) then we are calling the function and output will be the data returned by the function and that is 20. 
+
+
+
+//9.
+// Global and Local Variable
+
+// What is the output of following code?
+let a = 10; 
+//Global variable: A variable declared outside a function, becomes GLOBAL.
+
+// Variables declared Globally (outside any function) have Global Scope.
+
+// Global variables can be accessed from anywhere in a JavaScript program.
+
+// Variables declared with var, let and const are quite similar when declared outside a block.
+
+function test() {
+    
+    let a = 20;  
+    //Local Variables declared within a JavaScript function, become LOCAL to the function.
+
+    //Local variables are created when a function starts, and deleted when the function is completed. 
+}
+
+test(); //Just only we called the function however in a function scope we didnt used a console.log for printing the value,thats why unable to get the value of a function.
+console.log(a); //Therefore the value is printed 10;
+
+
+
+//10.
+let carName = "Volvo";
+// code here can use carName   //Because its Global
+
+function myFunction() {
+    let carName = "Volvo";  //Because its Local
+// code here can also use carName
+}
+
+console.log(carName); //Volvo
+console.log(carName); //Volvo
+
+
+
+//11.
+// Global Vs Local
+// Send Feedback
+// What is the output of following code
+var n = 10;
+
+function test() {
+    var n = 20;
+    console.log(n);
+}
+
+test(); //Ofcourse the answer is 20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
