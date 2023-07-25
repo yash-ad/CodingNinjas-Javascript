@@ -144,3 +144,63 @@ function livetest(a, b, c) {
 let printOutput = livetest(2,3);
 console.log(printOutput); //NaN
 
+
+
+
+// Variable Hoisting & Function Hoisting :-
+
+//1.
+
+function hoistDemo()
+{
+
+console.log(j);
+// var j = 10; 
+let j = 10; 
+
+}
+hoistDemo(); //It will show an error J is not defined.
+             //When we use var it will give an undefined 
+             //And when we use let it will show an errorcannot access J before intialization.
+
+
+
+//2.
+
+
+
+console.log(k);//Undefined
+var k = 20; 
+console.log(k);//20
+
+
+//3.
+
+console.log(g);
+let g = 100;
+console.log(g); //It will give an error cannot access G before intialization.
+
+
+
+//4.
+
+hoistDemoTwo();
+function hoistDemoTwo(){
+
+let f = "Function"
+console.log(f);
+
+}
+
+
+//5.
+//What will be the output of following code?
+x = 5; //Because of global variable
+console.log(x);
+var x;   
+
+//Similar this code with Let:-
+//What will be the output of following code?
+x = 5;
+console.log(x);  //It will give an error cannot access X before intialization.
+let x;
