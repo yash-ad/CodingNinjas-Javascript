@@ -311,6 +311,25 @@ function test() {
 }
 
 test(); //Ofcourse the answer is 20;
+console.log(n);
+
+
+//12.
+//Lexical scoping using Function:-
+
+function demoLexicalOuter()
+{
+
+let myName = "Yash";
+function demoLexicalInner(){
+
+    console.log(`My Name is : ${myName}`);
+
+}
+demoLexicalInner()
+}
+demoLexicalOuter();
+//console.log(`My Name is : ${myName}`); //It will give an error because we are accessing an outer the function,that is myName is not defined.
 
 
 
