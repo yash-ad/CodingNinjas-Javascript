@@ -1,1 +1,0 @@
-//Passing functions as arguments:-
