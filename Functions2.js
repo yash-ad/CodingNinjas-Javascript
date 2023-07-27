@@ -150,6 +150,68 @@ console.log(factorialTwo(6));//This line calls the factorialTwo function with an
 
 
 
+///.Function declaration and Function expression:-
+
+//console.log(functionExpression); //Undefined
+//1.
+let functionExpression = function expr()
+{
+
+console.log("Hello i'm function expression");
+};
+
+//console.log(functionExpression); //Function definition becuase we have not invoked the function
+
+//2.
+console.log(functionDeclaration);
+function functionDeclaration()
+{
+console.log("Hello i'm function declaration");
+
+}
+//console.log(functionDeclaration); //Function declaration
+
+
+//3.
+// Function Expression
+// Send Feedback
+// What is the output of following code?
+let RectArea = function(width, height) {
+    return width * height;
+}
+
+console.log(RectArea(5,4)); //20
+
+
+//4.
+// Nested Variable Function
+
+// What is the expected output of following code?
+function a() {
+    console.log("Inside a");
+
+    function b() {
+        console.log("Inside b");
+    }
+   
+}
+
+a();
+b(); //B is not defined becuase we are calling this function outside of a scope.
+
+
+
+//5.
+// Function Expression Syntax
+// Choose the correct syntax for a function expression.
+
+
+
+
+
+
+
+
 
 
 
