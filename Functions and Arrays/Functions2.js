@@ -205,8 +205,17 @@ b(); //B is not defined becuase we are calling this function outside of a scope.
 // Function Expression Syntax
 // Choose the correct syntax for a function expression.
 
+//(.1)
+let variable_Name = function(){ /*function body*/ }
 
 
+//(.2)
+let var_Name = function function_Name(){ /*function body*/ }
+
+
+
+
+//The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions.
 
 
 
