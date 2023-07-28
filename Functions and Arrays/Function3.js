@@ -51,6 +51,7 @@ console.log(result(add)); //8
 //In Javascript the Arrow function is a feature which were introduced in ES6 2015 concept,it allows you to create functions in a cleaner way compared to regular functions.
 
 //[1] Example one:-
+//On the left hand side Function expression and On the right hand side Arrow function :-
 let greet = () => {
  console.log(`Hello Js im an Arrow Function`);
 
@@ -58,6 +59,33 @@ let greet = () => {
 
 greet(); //Hello Js im an Arrow Function
 
+
+
+//[2] Example Two:-
+
+let countMyName = (count) => {
+
+    let myName = "Yash";
+for(let i = 0; i <= count; i++){
+    console.log(`Hello Js , My name is ${myName}`);
+
+}
+
+};
+
+countMyName(5); //Hello Js , My name is Yash ; 5 times
+
+
+
+///Simple arrow function within function expression in an oneline.
+
+
+//[3] Example Three:-
+
+
+let addNum = (num) => num + num;
+
+console.log(addNum(10)); //The value is 20;
 
 
 
