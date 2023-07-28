@@ -42,3 +42,24 @@ let result = function (func) {
 }
 
 console.log(result(add)); //8
+
+
+//Advanced Function Concepts :-
+
+//1.Arrow Function:-
+
+//In Javascript the Arrow function is a feature which were introduced in ES6 2015 concept,it allows you to create functions in a cleaner way compared to regular functions.
+
+//[1] Example one:-
+let greet = () => {
+ console.log(`Hello Js im an Arrow Function`);
+
+}
+
+greet(); //Hello Js im an Arrow Function
+
+
+
+
+
+
