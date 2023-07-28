@@ -83,11 +83,83 @@ console.log(arrayFour);// [1,2,3,4,5,6] Returns a new array and  the removed ele
 
 
 
-//3.Shift():-
+//3.Shift():-  
 //Removes the first element of an array and returns it.
 console.log(arrayFour);//[1,2,3,4,5,6]
 console.log(arrayFour.shift()); //1
 console.log(arrayFour); //[2,3,4,5,6]
+
+
+
+//4.unShift():-  
+//Adds a new element to the beginning of an array and returns new length.
+console.log(arrayFour);
+arrayFour.unshift(`Hello Im unShift and Im on Number one position because of unShift`);
+console.log(arrayFour);//[`Hello Im unShift and Im on Number one position because of unShift`,2,3,4,5,6]
+
+//Examples:-
+
+// 1.Push in Array
+// What is the output of the following code?
+let color= ["Orange", "Blue", "Green"];
+
+color.push("Red");
+
+console.log(color[0]+ " " +color[color.length-1]); //Orange Red
+
+
+
+//2. Shift Array
+// What is the output of the following code?
+var fruits = ["Red", "Orange", "Blue", "Green"];
+
+console.log(fruits.shift()); //Red , Because it removes the first element of an array and returns.
+
+
+//3.Heterogeneous Array :-
+//Is the below given array allowed in Javascript?
+
+
+var myArr = [45, "Ninja"];
+
+console.log(myArr); //[45, "Ninja"];
+//The answer is Yes , ofcourse we can  Since in javascript the array can store can be mixed of data types it could be string,boolean or number.
+
+
+
+//4.Splice() :-
+
+//Splice can be used to add new items to an array and returns deleted items.
+//Arguments  modifies the array.
+//There are 3 Arguments in Splice().
+//1st is Start index.
+//2nd is Deletion count.
+//3rd is Elements to be insert.
+
+
+//1.
+const numsArray = [2,3,4,5,6];
+console.log(numsArray);// [2,3,4,5,6];
+
+console.log(numsArray.splice(1,1));//3.
+console.log(numsArray);//[2,4,5,6];
+
+console.log(numsArray.splice(1));//[4,5,6];
+console.log(numsArray);//[2]; //Deleted all the lements and return only 2.
+
+
+const numsArrayTwo = [2,3,4,5,6];
+console.log(numsArray);// [2,3,4,5,6];
+
+console.log(numsArrayTwo.splice(2,0,"Four")); //At index 2 , number of deletion 0 , add a new element to the index 2 instead of 4 is "Four."
+console.log(numsArrayTwo); // [2,3,"Four",5,6];
+
+
+
+console.log(numsArrayTwo.splice(2,2,10,20));
+console.log(numsArrayTwo); //[2,3,10,20,5,6]
+
+
 
 
 
