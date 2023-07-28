@@ -59,4 +59,37 @@ console.log(arraay3);//[2,3,4]
 console.log(arraay3.length);//Total length is 3.
 
 
+///Functions on Arrays :-
+
+let arrayFour = [1,2,3,4,5,6];
+
+//1.Push():-
+//Adds a new element at the end of the an array and it modifies the original array with an argument,returns the new array.
+
+arrayFour.push(7); 
+console.log(arrayFour);// Here is the element new added  [1,2,3,4,5,6,7];
+
+console.log(arrayFour.length);//So total length is 7.
+
+
+//2.Pop():-
+//Removes the last element of an array and returns the removed element.
+
+console.log(arrayFour.pop()); //7 is the last element which was removed by using Pop.
+
+
+console.log(arrayFour);// [1,2,3,4,5,6] Returns a new array and  the removed element is none.
+
+
+
+
+//3.Shift():-
+//Removes the first element of an array and returns it.
+console.log(arrayFour);//[1,2,3,4,5,6]
+console.log(arrayFour.shift()); //1
+console.log(arrayFour); //[2,3,4,5,6]
+
+
+
+
 
