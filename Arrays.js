@@ -161,7 +161,24 @@ console.log(numsArrayTwo); //[2,3,10,20,5,6]
 
 
 
+// Array Splice
+// What is the output of following code?
+let fruity = ['Apple', 'Orange', 'Kiwi', 'Strawberry'];
 
+fruity.splice(4, 1, 'Banana');
+
+console.log(fruity);// ['Apple', 'Orange', 'Kiwi', 'Strawberry','Banana'];
+
+
+
+// Array Splice
+// Send Feedback
+// What is the output of following code?
+let myFruits = ['Apple', 'Orange', 'Kiwi', 'Strawberry'];
+
+myFruits.splice(1, 0, 'Banana');
+
+console.log(myFruits);//['Apple', 'Banana','Orange', 'Kiwi', 'Strawberry'];
 
 
 
