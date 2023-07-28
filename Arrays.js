@@ -1,4 +1,5 @@
 //Arrays In Javascript:-
+
 //Arrays is a basically collection of data.
 //[Square bracket is called literal]
 //In the square bracket we called elements.
@@ -31,7 +32,31 @@ console.log(myArray); //[1,2,3,4,5,6,7,8,9,10];
 const myNewArray = myArray;
 
 
+
 myNewArray[9] = 0; //In Array with the help of indices we have fixed the 0 position at index 9.
 console.log(myNewArray); //[1,2,3,4,5,6,7,8,9,0];
+
+console.log(myNewArray[3]); //4 Accessed the element.
+console.log(myNewArray[10]);//Undefined
+
+myNewArray[3] = "Four"; //Because we have changed the 4 number into a string for change the element at index  position 3 which starts from zero.
+console.log(myNewArray); //[1,2,3,"Four",5,6,7,8,9,0];
+
+
+
+myNewArray[12] = 100;
+console.log(myNewArray); //[1,2,3,"Four",5,6,7,8,9,0, <2 empty items>,100];
+console.log(myNewArray.length);//Total number of length us 13
+console.log(myNewArray[10]) //Undefined.
+
+
+
+let arraaay = new Array(); //Undefined 
+
+
+let arraay3 = new Array(2,3,4);
+console.log(arraay3);//[2,3,4]
+console.log(arraay3.length);//Total length is 3.
+
 
 
