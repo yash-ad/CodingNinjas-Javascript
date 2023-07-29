@@ -123,7 +123,7 @@ console.log(fruits.shift()); //Red , Because it removes the first element of an 
 var myArr = [45, "Ninja"];
 
 console.log(myArr); //[45, "Ninja"];
-//The answer is Yes , ofcourse we can  Since in javascript the array can store can be mixed of data types it could be string,boolean or number.
+//The answer is Yes , ofcourse we can , Since in javascript the array can store can be mixed of data types it could be string,boolean or number.
 
 
 
@@ -181,4 +181,22 @@ myFruits.splice(1, 0, 'Banana');
 console.log(myFruits);//['Apple', 'Banana','Orange', 'Kiwi', 'Strawberry'];
 
 
+//Array length - 1;
+
+let cafeArray = ["Cappucino","Americano","Blackcoffee","Coldcoffee","Lemontea"];
+
+console.log(cafeArray);
+
+//Array index it starts from zero and end n - 1;
+console.log(cafeArray.length); //5
+
+let arrLength = cafeArray.length;
+
+let lastIndex = arrLength - 1;
+
+console.log(cafeArray[lastIndex ]); //And the last index is 4 which is Lemontea;
+
+console.log(cafeArray[5]); //Undefined
+
+console.log(cafeArray[-1]); //Undefined
 
