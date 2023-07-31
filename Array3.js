@@ -2,6 +2,7 @@
 
 //Example Movie theatre line :-
 
+//1.
 const theatreLine = ["Yash","Siddhi","Aai","Papa" ,"MyFamily"];
 console.log(theatreLine);//["Yash","Siddhi","Aai","Papa" ,"MyFamily"];
 
@@ -20,3 +21,62 @@ console.log(theatreLine);//["Yash","Siddhi","Aai","Papa" ,"MyFamily","GrandMothe
 
 //pop(): //Removes the element at the end of an array.
 theatreLine.pop();
+console.log(theatreLine);//["Yash","Siddhi","Aai","Papa" ,"MyFamily","GrandMother","GrandFather","Uncle","Aunt","Satwik"]
+theatreLine.pop();
+theatreLine.pop();
+theatreLine.pop();
+console.log(theatreLine);//["Yash","Siddhi","Aai","Papa" ,"MyFamily","GrandMother","GrandFather"]
+
+
+
+//Shift(): Removes the first element of an array.
+theatreLine.shift();
+console.log(theatreLine);//["Siddhi","Aai","Papa" ,"MyFamily","GrandMother","GrandFather"]
+
+
+
+//unShift(): Adds a new element at thebeginning of an array:-
+theatreLine.unshift("Satwik");
+console.log(theatreLine);//["Satwik","Siddhi","Aai","Papa" ,"MyFamily","GrandMother","GrandFather"].
+
+
+//Splice(): startindex and deletecount:
+theatreLine.splice(1,1); //startindex 1 and no elemnts to remove 1.
+console.log(theatreLine);//["Satwik","Aai","Papa" ,"MyFamily","GrandMother","GrandFather"]
+
+theatreLine.splice(3,1,"Didu");
+console.log(theatreLine)//["Satwik","Aai","Papa" ,"Didu","GrandMother","GrandFather"]
+
+
+
+
+const theatreLineTwo = ["Kaka","Kaku"];
+
+    console.log(theatreLine.concat(theatreLineTwo));//["Satwik","Aai","Papa" ,"Didu","GrandMother","GrandFather","Kaka","Kaku"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
