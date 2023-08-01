@@ -134,3 +134,18 @@ console.log(carObj);
 
 delete carObj["name"];
 console.log(carObj);
+
+
+
+//9.Example is given :-
+
+// Access 3rd Key
+// An object is given as -
+let objt = 
+{
+    key1: "value1",
+    key2: "value2"
+};
+// What will be the output when you enter "obj.key3" on the console?
+console.log(objt["key1"]);// value1;
+console.log(objt["key3"]);// Undefined.
