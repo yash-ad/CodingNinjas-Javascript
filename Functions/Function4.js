@@ -50,3 +50,38 @@ console.log(multiplyResult); //7
 
 
 
+//An interesting question:-
+//1.
+// With using var
+function loop()
+{
+for(var i = 0; i < 5; i++){
+console.log(i);
+}
+
+console.log(`finally`,i)
+
+}
+
+loop();
+
+
+//2.
+// With using let
+function loop()
+{
+for(let i = 0; i < 5; i++){
+console.log(i);
+}
+
+console.log(`finally`,i) //It will give an error that i is not defined because it is an outer the scope of let.
+
+}
+
+loop();
+
+
+
+
+
+
