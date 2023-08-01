@@ -56,6 +56,13 @@ const theatreLineTwo = ["Kaka","Kaku"];
 
 
 
+    console.log(theatreLine.reverse());
+
+
+    console.log(theatreLine.indexOf("Didu")); //2
+
+
+    console.log(theatreLine.indexOf("Kumar")); //-1 that means its not exist.
 
 
 
