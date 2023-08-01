@@ -41,6 +41,8 @@ studentOne.semester = 3;
 console.log(studentOne); //3;
 
 
+
+//3.
 let person = 
 {
     name: "Jack",
@@ -50,6 +52,8 @@ let person =
 //The answer is Property.
 
 
+
+//4.
 //To create an empty object:-
 
 //1.Method 1
@@ -61,8 +65,10 @@ let person =
 // let obj = new Object();
 
 
+//5.
 let carObj = 
-{name:"Honda",
+{
+name:"Honda",
 price:15,
 year:2001
 };
@@ -77,8 +83,9 @@ console.log(carObj);
 //console.log(carObj.year);
 
 
+//6.
+///Withusing square bracket notation with the help of string:-
 
-//Withusing square bracket notation with the help of string:-
 console.log(carObj["name"]); //Honda
 console.log(carObj["price"]);//15
 console.log(carObj["year"]);//2001
@@ -95,6 +102,7 @@ console.log(carObj);//{name:Hyundai,price:20,year:2005};
 
 
 
+//7.
 //Using function for an example:-
 let printProperty = (object,prop) =>
 {
@@ -107,3 +115,22 @@ let prop   = "name";
 
 
 printProperty(carObj,prop); //Hyundai
+
+
+
+
+
+//8.
+//Deleting properties:-
+
+//Delete keyword for deleting the unwanted property:=
+
+//delete carObj.year;   //Delete keyword using dot notation
+delete carObj["year"];
+console.log(carObj);
+
+delete carObj["price"];
+console.log(carObj);
+
+delete carObj["name"];
+console.log(carObj);
