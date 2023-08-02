@@ -1,7 +1,7 @@
-// //How are objects stored:-
+//How are objects stored:-
 
 
-// //1.
+//1.
 // let obj =
 // {
 
@@ -13,9 +13,9 @@
 
 
 
-// // An object is stored in a variable:-
+// An object  can be stored in a variable:-
 
-// let objTwo = obj;
+let objTwo = obj;
 
 
 // objTwo["num"] = 100;
@@ -29,12 +29,12 @@
 
 // console.log(obj); 
 
-// //An object is reference to the variable and an object is stored in a variable.
-// //Its all about memory storage in javascript and its referring as well.
+//An object is reference to the variable and an object is stored in a variable.
+//Its all about memory storage in javascript and its referring as well.
 
 
 
-// //Compare between two objects:-
+//Compare between two objects:-
 // console.log(obj === objTwo); //Thats True.
 
 
@@ -43,11 +43,16 @@
 let bikeDetails =
 {
 name:"BMW",
+
 price:"2lakh",
+
 year:2023
 };
 
-console.log(bikeDetails);//{name:"BMW",price:"2lakh",year:2023};
+console.log(bikeDetails); //{name:"BMW",price:"2lakh",year:2023};
+
+
+
 
 //Using forIn loop:-
 //1.
@@ -57,6 +62,7 @@ for(let prop in bikeDetails)
 console.log(prop,bikeDetails[prop]);
 
 }; 
+
 //name : BMW
 //price : 2lakh
 //year : 2023.
@@ -65,6 +71,7 @@ console.log(prop,bikeDetails[prop]);
 
 //2.
 //let keys = Object.keys(bikeDetails);
+
 //name : BMW
 //price : 2lakh
 //year : 2023.
@@ -72,13 +79,17 @@ console.log(prop,bikeDetails[prop]);
 
 //3.
  let keys = Object.getOwnPropertyNames(bikeDetails);
+ 
  //name : BMW
 //price : 2lakh
 //year : 2023.
-
-
-
 //All are above examples will get same results.
+
+
+
+
+
+
 
 
 

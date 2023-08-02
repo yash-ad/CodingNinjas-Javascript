@@ -17,24 +17,26 @@ marks  :50
 };
 
 console.log(studentOne); //{name:"Arpit", rollNo: 31 , marks:50};
+
 //Dot is for notation that means to access particular property.
 console.log(studentOne.name);//Arpit
 console.log(studentOne.rollNo);//31
 console.log(studentOne.marks);//50
 
 
-//For changing the property:-
+//For changing the property and assigning the value :-
 studentOne.name = "Yash";
 console.log(studentOne.name); //"Yash";
+
 studentOne.rollNo = 1;
 console.log(studentOne.rollNo);// 1;
+
 studentOne.marks = 100;
 console.log(studentOne.marks);// 100;
 
 console.log(studentOne);
 
-
-console.log(studentOne.semester);//Undefined becuase we have not defined yet.
+console.log(studentOne.semester);//Undefined because we have not defined  the semester yet.
 
 
 studentOne.semester = 3;
@@ -49,7 +51,7 @@ let person =
     age: 50
 };
 // What is 'age: 50' written in the above object 'person'?
-//The answer is Property.
+//The answer is Property of an object.
 
 
 
@@ -126,7 +128,10 @@ printProperty(carObj,prop); //Hyundai
 //Delete keyword for deleting the unwanted property:=
 
 //delete carObj.year;   //Delete keyword using dot notation
-delete carObj["year"];
+
+
+//Delete keyword using square bracket notation :-
+delete carObj["year"];  
 console.log(carObj);
 
 delete carObj["price"];
@@ -147,5 +152,5 @@ let objt =
     key2: "value2"
 };
 // What will be the output when you enter "obj.key3" on the console?
-console.log(objt["key1"]);// value1;
-console.log(objt["key3"]);// Undefined.
+console.log(objt["key1"]); // value1;
+console.log(objt.key3);   // Undefined.
