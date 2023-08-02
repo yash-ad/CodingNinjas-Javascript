@@ -28,3 +28,18 @@ let obj =
 };
 
 console.log(obj);
+
+console.log(obj.length); //It will give an undefined.
+
+
+console.log(arr.length); //5.
+
+arr[6] = 6;
+console.log(arr);
+console.log(arr.length);//7.
+
+
+
+
+
+//Iterating over array using forIn :-
