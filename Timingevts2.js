@@ -18,9 +18,9 @@ c.first = false;
 }
 
 // Outside the function, we declare three variables: x, y, and z.
-var x = 4; // x is assigned the value 4.
-var y = ["Raj","Rahul"];// y is assigned an array ["Raj", "Rahul"].
-var z = {first : true}; // z is assigned an object {first: true}.
+let x = 4; // x is assigned the value 4.
+let y = ["Raj","Rahul"];// y is assigned an array ["Raj", "Rahul"].
+let z = {first : true}; // z is assigned an object {first: true}.
 
 
 
@@ -47,6 +47,29 @@ console.log(x,y,z);// After the function call, we use console.log to print the v
 
 
 
+
+
+
+
+//Code created by me and understood well.
+//Reference In javascript ;-
+
+function fnTwo(e,f,g)
+{
+
+e = 5;
+f.push("Yash");
+g.first = true;
+
+}
+
+
+let H = 6;
+let I = ["Papa","Aai","Siddhi"];
+let J = {first : false};
+
+fnTwo(H,I,J);
+console.log(H,I,J);
 
 
 
