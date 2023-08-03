@@ -1,16 +1,42 @@
-// //Nested Objects :-
+//Nested Objects :-
 
 
-// //An object within an object :-
+//An object within an object :-
 
-// let phoneDetails =
-// {
-// name:"Apple",
+let phoneDetails =
+{
+name:"Apple",
+model:`14Pro`,
+price:`1lakh`,
+
+//Nested object
+brandDetails : {
+    yearOfLaunch : 2023,
+    brand : `i14`,
+    brandCode : 1010
+
+}
+
+
+};
+
+//console.log(phoneDetails);
+//{ name:"Apple",
 // model:`14Pro`,
 // price:`1lakh`,
-
-// //Nested object
 // brandDetails : {
+//     yearOfLaunch : 2023,
+//     brand : `i14`,
+//     brandCode : 1010
+// }
+// };
+
+
+
+
+
+//console.log(phoneDetails["brandDetails"]);
+// {
 //     yearOfLaunch : 2023,
 //     brand : `i14`,
 //     brandCode : 1010
@@ -18,89 +44,65 @@
 // }
 
 
+//Logging using dot notation.
+//console.log(phoneDetails.brandDetails.brandCode);
+//1010;
+
+
+//Logging using square notation.
+c//onsole.log(phoneDetails.brandDetails["yearOfLaunch"]);
+//2023
+
+
+
+///.CodingNinja Problem solving 
+//1.
+// Create and Modify Objects
+// Write a JavaScript program to:
+// 1. Create a student object with three properties: name, age, and roll no.
+// 2. Create an object address with two properties, City and state and add this object property to the student object.
+// 3. Now delete the roll no property.
+
+
+
+
+//Code created by me:-
+// 1. Create a student object with three properties: name, age, and roll no.
+// let student = 
+// {
+// name   :"Shreyas",
+// age    :13,
+// rollno :32
+// }
+
+// 2. Create an object address with two properties, City and state.
+// let address =
+// {
+// city:`Pune`,
+// state:`Maharashtra`
 // };
 
-// console.log(phoneDetails);
-// //{ name:"Apple",
-// // model:`14Pro`,
-// // price:`1lakh`,
-// // brandDetails : {
-// //     yearOfLaunch : 2023,
-// //     brand : `i14`,
-// //     brandCode : 1010
-// // }
-// // };
+//3. Add this object property to the student object.
+//student.address = address;
+//console.log(student);
+//  {
+// name   :"Shreyas",
+// age    :13,
+// rollNo :32,
+// address:{city:`Pune`,state:`Maharashtra`}
+//  }
+
+// 3. Now delete the roll no property.
+//delete student.rollno;
+
+//console.log(student);
+//  {
+// name   : "Shreyas",
+// age    : 13,
+// address: {city:`Pune`,state:`Maharashtra`}
+//  }
 
 
-
-
-
-// console.log(phoneDetails["brandDetails"]);
-// // {
-// //     yearOfLaunch : 2023,
-// //     brand : `i14`,
-// //     brandCode : 1010
-
-// // }
-
-
-// //Logging using dot notation.
-// console.log(phoneDetails.brandDetails.brandCode);
-// //1010;
-
-
-// //Logging using square notation.
-// console.log(phoneDetails.brandDetails["yearOfLaunch"]);
-// //2023
-
-
-
-// ///.CodingNinja Problem solving 
-// //1.
-// // Create and Modify Objects
-// // Write a JavaScript program to:
-// // 1. Create a student object with three properties: name, age, and roll no.
-// // 2. Create an object address with two properties, City and state and add this object property to the student object.
-// // 3. Now delete the roll no property.
-
-
-
-
-// //Code created by me:-
-// // // 1. Create a student object with three properties: name, age, and roll no.
-// // let student = 
-// // {
-// // name   :"Shreyas",
-// // age    :13,
-// // rollno :32
-// // }
-
-// // // 2. Create an object address with two properties, City and state.
-// // let address =
-// // {
-// // city:`Pune`,
-// // state:`Maharashtra`
-// // };
-
-// // //3. Add this object property to the student object.
-// // student.address = address;
-// // console.log(student);
-// // //  {
-// // // name   :"Shreyas",
-// // // age    :13,
-// // // rollNo :32,
-// // // address:{city:`Pune`,state:`Maharashtra`}
-// // //  }
-
-// // // 3. Now delete the roll no property.
-// // delete student.rollno;
-
-// // console.log(student);
-// // //  {
-// // // name   : "Shreyas",
-// // // age    : 13,
-// // // address: {city:`Pune`,state:`Maharashtra`}
-// // //  }
 
 //IMP:-Tip:=
 // Can a function be declared without a name?
