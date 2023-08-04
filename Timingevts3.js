@@ -161,13 +161,19 @@ console.log(girl);
 
 
 let copiedGirl = {...girl};
+console.log(`The middle one :`,copiedGirl);
+//{
+// name : "susan",
+// age : 15
+// }
 
 copiedGirl.name = "Shanaya";
+copiedGirl.age  = 16;
 console.log(`After using spread operator`);
 console.log(copiedGirl);
 //{
 // name : "Shanaya",
-// age : 15
+// age : 16
 // }
 console.log(girl);
 //{
