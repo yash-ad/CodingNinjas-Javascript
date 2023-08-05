@@ -214,3 +214,19 @@ personTwo.state ="Maharashtra";
 console.log(personTwo);//{name:"Rahul",age:20,state:"Maharashtra"};
 console.log(personOne);//{name:"Rahul",age:20,state:"Maharashtra"};
 //It wont be changed the answer remains same.
+
+
+// 1.Spread Opertaor:-
+// Consider the following object. 
+// What happens when we spread into a new object and change the firstName property of the object?
+let obj1 = { firstName: 'James' };
+let obj2 = {...obj1};
+obj2.firstName = 'John';
+console.log(obj1);
+//{ firstName: 'James' };
+
+//CodeDescription :-
+//Spread creates a deep copy of the array, 
+//meaning the obj2 is disconnected from obj1. 
+//So, changing the firstName property of the obj2 will not be reflected by the obj1.
+
