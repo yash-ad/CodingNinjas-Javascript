@@ -89,3 +89,25 @@
 // The browser invokes the handler when- A specified event occurs.
 // Explanation: When an event of the specified type occurs on the specified target, the browser invokes the handler.
 // e.g. onclick function is executed when the mouse is clicked.
+
+
+
+
+//13.Script tag
+// Where can we add script tag in html code?
+// In head and In body.
+
+
+
+
+//14.External JavaScript
+//What are the advantages of using external Javascript?
+// It separates HTML and code.
+// It makes HTML and JavaScript easier to read and maintain.
+// Cached JavaScript files can speed up page loads.
+
+
+//15.Linking external JavaScript
+// How to link external JavaScript in a HTML page?
+// <script src="script.js"></script>
+
