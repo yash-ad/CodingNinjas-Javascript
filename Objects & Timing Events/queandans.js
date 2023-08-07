@@ -1,66 +1,66 @@
-// ///.CodingNinja Problem solving 
-// //1.
-// // Create and Modify Objects
-// // Write a JavaScript program to:-
+///.CodingNinja Problem solving 
+//1.
+// Create and Modify Objects
+// Write a JavaScript program to:-
 
-// //  Create a student object with three properties: name, age, and roll no.
-// // let student = 
-// // {
-// // name   :"Shreyas",
-// // age    :13,
-// // rollno :32
-// // }
+//  Create a student object with three properties: name, age, and roll no.
+// let student = 
+// {
+// name   :"Shreyas",
+// age    :13,
+// rollno :32
+// }
 
-// //  Create an object address with two properties, City and state.
-// // let address =
-// // {
-// // city:`Pune`,
-// // state:`Maharashtra`
-// // };
+//  Create an object address with two properties, City and state.
+// let address =
+// {
+// city:`Pune`,
+// state:`Maharashtra`
+// };
 
-// // Add this object property to the student object.
-// //student.address = address;
-// //console.log(student);
-// //  {
-// // name   :"Shreyas",
-// // age    :13,
-// // rollNo :32,
-// // address:{city:`Pune`,state:`Maharashtra`}
-// //  }
+// Add this object property to the student object.
+//student.address = address;
+//console.log(student);
+//  {
+// name   :"Shreyas",
+// age    :13,
+// rollNo :32,
+// address:{city:`Pune`,state:`Maharashtra`}
+//  }
 
-// // Now delete the roll no property.
-// //delete student.rollno;
+// Now delete the roll no property.
+//delete student.rollno;
 
-// //console.log(student);
-// //  {
-// // name   : "Shreyas",
-// // age    : 13,
-// // address: {city:`Pune`,state:`Maharashtra`}
-// //  }
-
-
+//console.log(student);
+//  {
+// name   : "Shreyas",
+// age    : 13,
+// address: {city:`Pune`,state:`Maharashtra`}
+//  }
 
 
 
 
-// // 2.Create Empty Object
-// // Which of the following will create an empty object?
-// //Ans:
-// // var obj = {}
-// // obj = new Object()
+
+
+// 2.Create Empty Object
+// Which of the following will create an empty object?
+//Ans:
+// var obj = {}
+// obj = new Object()
 
 
 
 
-// //3.An Empty Object
-// // Let’s say that you created an empty object 'obj'? What will the below statements print on the console?
-// // obj.key1 = "value1";
-// // console.log(obj.key1);
-// //Ans: value1.
+//3.An Empty Object
+// Let’s say that you created an empty object 'obj'? What will the below statements print on the console?
+// obj.key1 = "value1";
+// console.log(obj.key1);
+//Ans: value1.
 
 
-// //4.Find the Output:-
-// // Consider following code snippet -
+//4.Find the Output:-
+// Consider following code snippet -
 // let student = {
 //   firstName: "jonathan",
 //   lastName: "doe"
@@ -68,31 +68,31 @@
 
 // delete student.firstName;
 // console.log(student.firstName+ " "+ student.lastName);
-// // What is the expected output?
-// //Undefined doe.
+// What is the expected output?
+//Undefined doe.
 
 
 
-// //5. Function With Variable Argument
-// // What is the correct way of declaring a function with variable arguments?
-// //Ans:-
-// // function functionName(...args)
+//5. Function With Variable Argument
+// What is the correct way of declaring a function with variable arguments?
+//Ans:-
+// function functionName(...args)
 
 
-// // 6.Print on Console
-// // What will the following code print on the console?
-// // function abc(arr) {
-// //     var arr2;
-// //     for(i in arr) {
-// //         arr2[i] = i;
-// //     }
-// //     return arr2;
-// // }
+// 6.Print on Console
+// What will the following code print on the console?
+// function abc(arr) {
+//     var arr2;
+//     for(i in arr) {
+//         arr2[i] = i;
+//     }
+//     return arr2;
+// }
 
-// // var arr = [12, 56, 48, "hello"];
-// // console.log(abc(arr)[1]);
-// // Solution Description
-// // arr2[i] = i; this line gives a type error because we can’t set properties of undefined.
+// var arr = [12, 56, 48, "hello"];
+// console.log(abc(arr)[1]);
+// Solution Description
+// arr2[i] = i; this line gives a type error because we can’t set properties of undefined.
 
 
 
@@ -102,11 +102,11 @@
 // var obj2 = new Object();
 // var obj3 = {};
 // console.log(obj1===obj2, obj1 === obj3);
-// // false false
-// // Primitives like strings and numbers are compared by their value,
-// // while objects like arrays and objects are compared by their reference. 
-// // So, obj3 and obj2 both refer to different instances or different memory locations.
-// // Similarly for obj1 and obj3.
+// false false
+// Primitives like strings and numbers are compared by their value,
+// while objects like arrays and objects are compared by their reference. 
+// So, obj3 and obj2 both refer to different instances or different memory locations.
+// Similarly for obj1 and obj3.
 
 
 
