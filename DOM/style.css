@@ -62,7 +62,7 @@ margin-top: 150px;
 // So create a big box in the center of the web page and add a counter below it.
 // When you click on the box the counter should increases by one. */
 
-/* body
+body
 {
 display: flex;
 align-items: center;
@@ -96,11 +96,11 @@ p{
 
     text-align: center;
     margin-top: 150px;
-} */
+} 
 
 
 
-
+/* 
 #Outer{
 
 box-sizing: border-box;
@@ -110,9 +110,9 @@ box-sizing: border-box;
   margin: 50px;
   padding: 50px;
 
-}
+} */
 
-#Inner{
+/* #Inner{
 
   height: 100px;
   width: 100px;
@@ -122,4 +122,4 @@ box-sizing: border-box;
 #search{
 
   border: 1px solid black;
-}
+} */

@@ -148,3 +148,56 @@
 
 
 
+//22.Strict Mode
+//Choose the correct statement about the strict mode:-
+//It applies to individual functions and also to the entire script.
+//It prevents or throws errors when relatively "unsafe" actions are taken (such as gaining access to the global object).
+
+
+
+//23.Event type
+//Which property specifies the type of event triggered?
+//Type.
+
+
+
+//24.Drag and Drop
+//Which of the following are the drag and drop events?
+//Both drop and dragstart.
+
+
+
+//25.Script Tag for External JavaScript
+//The external JavaScript file must contain the <script> tag.
+//False.
+
+
+//26.Event Handling
+//The process by which the browser decides which objects to trigger event handlers on is?
+//Event propagation.
+
+
+
+//27.addEventListener:-
+// Which of the following statements about the arguments of addEventListener() is/are True.
+// 1.The first argument to addEventListener() is the event type for 
+// which the handler is being registered.  
+// 2.The second argument to addEventListener() is the function that 
+// should be invoked when the specified type of event occurs.
+
+
+
+//28.Changing text in HTML
+//Choose the correct JavaScript syntax to change the content of the following HTML code.
+//<p id="ninjas">Coding Ninjas</p>:-
+// document.getElementById(“ninjas”).innerHTML=”I am a Ninja”;
+// document.querySelector(“#ninjas”).innerHTML= “I am a Ninja”
+
+
+
+
+
+
+
+
+

@@ -91,20 +91,23 @@
 // So create a big box in the center of the web page and add a counter below it.
 // When you click on the box the counter should increases by one.
 
+"use strict";
+const clickAble = document.getElementById("clickBox");
 
-// const clickBox = document.getElementById("clickBox");
+const counter = document.getElementById("counter");
 
-// const counter = document.getElementById("counter");
+let count = 0;
 
-// let count = 0;
+clickAble.addEventListener('click',() =>
+{
 
-// clickBox.addEventListener("click",() =>{
+count++;
+prompt(count);
 
-// count++;
 
-// counter.textContent = count;
+counter.textContent = count;
 
-// });
+});
 
 
 
@@ -131,29 +134,29 @@
 
 
 //OuterDiv:-
-const outerDiv = document.getElementById("Outer");
+// const outerDiv = document.getElementById("Outer");
 
 //InnerDiv:-
-const innnerDiv = document.getElementById("Inner");
+// const innnerDiv = document.getElementById("Inner");
 
 //Eventlisteners:-
 // outerDiv.addEventListener("mouseover",function(){
 // alert("MouseOver");
 // });
 
-outerDiv.addEventListener("click",function(){
+// outerDiv.addEventListener("click",function(){
 
-    alert("You clicked outerDiv");
-});
+//     alert("You clicked outerDiv");
+// });
 
-innnerDiv.addEventListener("click",function(event){
+// innnerDiv.addEventListener("click",function(event){
 
-alert("You clicked  innerDiv");
-event.stopPropagation();
+// alert("You clicked  innerDiv");
+// event.stopPropagation();
 //Event bubbling can be prevented by using,
 //event.stopPropagation();
 //deepest element or target element to its parents.
-});
+
 
 
 //Keyboard keys event:-
