@@ -92,19 +92,19 @@
 // When you click on the box the counter should increases by one.
 
 
-const clickBox = document.getElementById("clickBox");
+// const clickBox = document.getElementById("clickBox");
 
-const counter = document.getElementById("counter");
+// const counter = document.getElementById("counter");
 
-let count = 0;
+// let count = 0;
 
-clickBox.addEventListener("click",() =>{
+// clickBox.addEventListener("click",() =>{
 
-count++;
+// count++;
 
-counter.textContent = count;
+// counter.textContent = count;
 
-});
+// });
 
 
 
@@ -125,16 +125,52 @@ counter.textContent = count;
 
 // Now, when you open the HTML file in a web browser, you'll see a centered box. Clicking on the box will increase the counter displayed below it.
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//MouseOver and mouseOut event:-
+
+
+
+const outerDiv = document.getElementById("Outer");
+
+
+outerDiv.addEventListener("mouseover",function(){
+alert("MouseOver");
+});
+
+outerDiv.addEventListener("mouseout",function(){
+
+    alert("MouseOut");
+});
+
+
+//Keyboard keys event:-
+
+
+let inputElement = document.getElementById("search");
+
+inputElement.addEventListener("keypress",function(){
+
+
+alert("Key-Press");
+});
 
 
 
 
+//Arrow-Keys Up-Down keyUp and keyDown
 
 
+inputElement.addEventListener("keyup",function(){
 
 
+   alert("keyUp");
+});
+
+inputElement.addEventListener("keydown",function(){
 
 
-
+    alert("keyDown");
+});
 
 

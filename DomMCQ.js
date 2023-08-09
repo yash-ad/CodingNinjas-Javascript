@@ -111,3 +111,26 @@
 // How to link external JavaScript in a HTML page?
 // <script src="script.js"></script>
 
+
+//16.onkeydown event.
+//The onkeydown event occurs when the user is..
+//Pressing a key.
+
+
+
+//17.Rotation of mouse wheel:-
+//Which among these is a property that reports rotation of mouse wheel axes?
+//Gets the distance that a mouse wheel has rotated around the x-axis (horizontal).
+//The deltaX property returns a positive value when scrolling to the right, and a negative value when scrolling to the left, otherwise 0.
+
+
+//18.keyCode property
+//What value does the keyCode property holds when a Shift key is pressed for adding punctuation character?
+//Digits.
+
+
+
+//19.key type
+//Which of the following properties is used to specify the key type when pressed?
+//Keycode.
+//The keyCode property returns the Unicode character code of the key that triggered the onkeypress event or the Unicode key code of the key that triggered the onkeydown or onkeyup event.
