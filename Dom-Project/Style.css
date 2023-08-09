@@ -1,0 +1,48 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+height: 100vh;
+margin: 0;
+}
+
+.Game-container{
+
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.Box-container{
+
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.5%;
+}
+
+.Btn{
+    text-align: center;
+    margin-top: 250px;
+    cursor: pointer;
+  padding: 10px;
+
+    
+}
+
+#colorChangingBtn{
+
+    margin-right: 20px;
+}
+
+
+#shapeChangingBtn{
+
+    margin-left: 20px;
+
+}
