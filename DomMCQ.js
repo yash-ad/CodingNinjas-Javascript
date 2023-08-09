@@ -134,3 +134,17 @@
 //Which of the following properties is used to specify the key type when pressed?
 //Keycode.
 //The keyCode property returns the Unicode character code of the key that triggered the onkeypress event or the Unicode key code of the key that triggered the onkeydown or onkeyup event.
+
+
+
+//20.Event Bubbling
+//In Event bubbling, events starts from?
+//deepest element or target element to its parents.
+
+
+//21.Event bubbling prevention
+//Event bubbling can be prevented by using
+//event.stopPropagation();
+
+
+

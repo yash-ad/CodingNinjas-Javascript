@@ -130,30 +130,42 @@
 //MouseOver and mouseOut event:-
 
 
-
+//OuterDiv:-
 const outerDiv = document.getElementById("Outer");
 
+//InnerDiv:-
+const innnerDiv = document.getElementById("Inner");
 
-outerDiv.addEventListener("mouseover",function(){
-alert("MouseOver");
+//Eventlisteners:-
+// outerDiv.addEventListener("mouseover",function(){
+// alert("MouseOver");
+// });
+
+outerDiv.addEventListener("click",function(){
+
+    alert("You clicked outerDiv");
 });
 
-outerDiv.addEventListener("mouseout",function(){
+innnerDiv.addEventListener("click",function(event){
 
-    alert("MouseOut");
+alert("You clicked  innerDiv");
+event.stopPropagation();
+//Event bubbling can be prevented by using,
+//event.stopPropagation();
+//deepest element or target element to its parents.
 });
 
 
 //Keyboard keys event:-
 
 
-let inputElement = document.getElementById("search");
+// let inputElement = document.getElementById("search");
 
-inputElement.addEventListener("keypress",function(){
+// inputElement.addEventListener("keypress",function(){
 
 
-alert("Key-Press");
-});
+// alert("Key-Press");
+// });
 
 
 
@@ -161,16 +173,16 @@ alert("Key-Press");
 //Arrow-Keys Up-Down keyUp and keyDown
 
 
-inputElement.addEventListener("keyup",function(){
+// inputElement.addEventListener("keyup",function(){
 
 
-   alert("keyUp");
-});
+//    alert("keyUp");
+// });
 
-inputElement.addEventListener("keydown",function(){
+// inputElement.addEventListener("keydown",function(){
 
 
-    alert("keyDown");
-});
+//     alert("keyDown");
+// });
 
 
