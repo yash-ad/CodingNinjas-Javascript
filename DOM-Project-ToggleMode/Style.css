@@ -12,6 +12,15 @@
 
     padding: 30px;
   }
+
+  /* TitleHeading */
+  .titleHeading{
+
+text-align: center;
+font-size: 50px;
+
+
+  }
   
 /* Container */
   .container
@@ -37,6 +46,7 @@ right: 0;
 border-radius: 20px;
 cursor: pointer;
 outline: none;
+margin-top: -46px;
 
   }
 
@@ -50,7 +60,7 @@ position: absolute;
 top: 5px;
 height: 30px;
 width: 30px;
-left: 4px;
+left: 5px;
 background-color: #ffffff;
 border-radius: 50%;
   }
@@ -66,4 +76,21 @@ border-radius: 50%;
 
     background-color: #15181f;
     color: #e5e5e5;
+  }
+
+
+  .dark-theme  #toggleButton{
+
+    background-color: #ffffff;
+  }
+
+
+  /* Pseudo Element */
+  .dark-theme  #toggleButton::after{
+
+
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 35px;
   }
