@@ -71,3 +71,43 @@ setTimeout(function(){
 // So,the key difference here is that using let creates a new variable for each iteration with block scope,
 // ensuring that each instance of the function within setTimeout captures the correct value of i. 
 // This leads to the expected behavior in the second example.
+
+
+//1.M.C.Q:-
+// Let vs Var
+// Send Feedback
+// The main difference between the variables declared with var and with let is :-
+
+//Variables declared with var have global scope,
+//whereas variables declared with let have block scope.
+//Variables declared with let are defined only within the block(and any blocks nested within it).
+
+//2.M.C.Q:-
+// Find the Output - I
+// Send Feedback
+// What will be the output of the following code?
+function oddSum(n)
+{
+    let total = 0, result=[]; 
+    for(let x = 1; x <= n; x++) 
+    { 
+       let odd = 2*x-1; 
+       total += odd;
+       result.push(total);
+    }
+    return result;
+}
+
+var result = oddSum(5);
+console.log(result); //[1,4,9,16,25]
+
+//Solution Description:-
+//Let keyword has block scope so the total variable will be defined inside the for loop in the given code snippet. 
+//The given code returns 1, 4, 9, 16, and 25, the square of the first five natural numbers.
+
+
+
+
+
+
+

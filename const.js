@@ -24,3 +24,17 @@ console.log(a); //20
  //Using `const` hoisting:-
  console.log(d); //It will give an error cannot access `d` before intialization however we can access it after intialization.
  const d = 123;
+
+
+
+//1.M.C.Q:-
+//  Find Output
+// Send Feedback
+// What will be the output of the following code?
+// const pi=3.14;
+// var pi=4;
+// console.log(pi);
+//The output is it will give an error.
+
+
+
