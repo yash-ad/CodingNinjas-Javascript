@@ -31,8 +31,8 @@ console.log(a); //20
 //  Find Output
 // Send Feedback
 // What will be the output of the following code?
-// const pi=3.14;
-// var pi=4;
+// const pi = 3.14;
+// var pi = 4;
 // console.log(pi);
 //The output is it will give an error.
 

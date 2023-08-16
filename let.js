@@ -17,7 +17,7 @@
 
 //Using `let `:-
 
-// let a = 10;
+//let a = 10;
 
 // if(a <= 10)
 // {
@@ -98,7 +98,7 @@
 
 // let a;
 // console.log(a); //Undefined.
-                  //It can be declared without intialization.
+                  //It can't be declared without intialization.
 
 
 // const c;
@@ -117,5 +117,6 @@
 
 // let b = 20;     //but cannot be redeclared. 
 // console.log(b);
+
 
 

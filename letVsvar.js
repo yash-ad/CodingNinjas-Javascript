@@ -75,7 +75,6 @@ setTimeout(function(){
 
 //1.M.C.Q:-
 // Let vs Var
-// Send Feedback
 // The main difference between the variables declared with var and with let is :-
 
 //Variables declared with var have global scope,
@@ -84,22 +83,47 @@ setTimeout(function(){
 
 //2.M.C.Q:-
 // Find the Output - I
-// Send Feedback
 // What will be the output of the following code?
+
+
+
+//This javascript code defines a function called oddSum(n),that takes a positive integer `n` as input(parameter).
+//the function calculates the sum of oddnumbers upto `n` and stores the cumulative sums in an array `result`.
+//Finally, it returns this array.
+
 function oddSum(n)
+//function oddSum(n) defines a function that takes an input (n).
 {
-    let total = 0, result=[]; 
-    for(let x = 1; x <= n; x++) 
+    let total = 0,result= [];
+//Inside the function, let total = 0 initializes a variable total,
+//to keep track of the cumulative sum of odd numbers. 
+    for(let x = 1; x <= n; x++)
+//A for loop iterates over x from 1 to n (inclusive). 
     { 
+//let odd = 2*x-1 calculates the odd value, which represents the x-th odd number.        
        let odd = 2*x-1; 
        total += odd;
+//total += odd adds the current odd number to the total sum.       
        result.push(total);
+//result.push(total) appends the current value of total to the result array.      
     }
     return result;
+//After the loop completes,
+//the function returns the result array containing the cumulative sums of odd numbers.    
 }
 
 var result = oddSum(5);
+//calls the oddSum function with an argument of 5,
+//calculating the cumulative sums of odd numbers up to 5.
 console.log(result); //[1,4,9,16,25]
+// Explanation of the output:
+
+// The first odd number is 1. Cumulative sum: 1.
+// The second odd number is 3. Cumulative sum: 1 + 3 = 4.
+// The third odd number is 5. Cumulative sum: 1 + 3 + 5 = 9.
+// The fourth odd number is 7. Cumulative sum: 1 + 3 + 5 + 7 = 16.
+// The fifth odd number is 9. Cumulative sum: 1 + 3 + 5 + 7 + 9 = 25.
+// So, the final result array contains [1, 4, 9, 16, 25].
 
 //Solution Description:-
 //Let keyword has block scope so the total variable will be defined inside the for loop in the given code snippet. 
