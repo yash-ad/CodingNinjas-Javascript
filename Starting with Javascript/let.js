@@ -118,5 +118,27 @@
 // let b = 20;     //but cannot be redeclared. 
 // console.log(b);
 
+/////////////////////////////////////////////////////////////////////////////////
+{
+    let message = "Hello";
+    console.log(message); //Hello 
+  }
+  //console.log(message); //Error: message is not defined.
+  
+ ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//What is the expected output if we run the following code in console?
+// function makeCounter() 
+// {
+//   let count = 0;
+//   return function() {
+//     return count++;
+//   };
+// }
+// let counter1 = makeCounter();
+// let counter2 = makeCounter();
+// console.log( counter1() );// 0
+// console.log( counter1() );// 1
+// console.log( counter2() );// 0
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
